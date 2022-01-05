@@ -8,9 +8,9 @@ services:
     restart: unless-stopped
     container_name: iredmail
     hostname: mail
-    domainname: example.com
+    domainname: suindeals.com
     environment: 
-      - DOMAIN=example.com
+      - DOMAIN=suindeals.com
       - HOSTNAME=mail
       - MYSQL_ROOT_PASSWORD=password
       - SOGO_WORKERS=1
